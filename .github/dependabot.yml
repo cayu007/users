@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"  # Ubicación del archivo requirements.txt en tu repositorio.
+    schedule:
+      interval: "weekly"  # Frecuencia con la que Dependabot revisará las actualizaciones.
